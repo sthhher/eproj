@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-    name = 'eproj',
-    packages = ['eproj'], # this must be the same as the name above
+    name = 'eprojj',
+    packages = ['eprojj'], # this must be the same as the name above
     version = '0.1',
     description = 'Pass the file of github to pipy',
     author = 'Esther Vendrell',
