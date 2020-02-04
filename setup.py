@@ -7,7 +7,7 @@ setup(
     author = 'Esther Vendrell',
     author_email = 'esvemira@hotmail.com',
     url = 'https://github.com/sthhher/eproj.git', # use the URL to the github repo
-    download_url = 'https://github.com/sthhher/eproj.git/tarball/0.1',
+    download_url = 'https://github.com/sthhher/eproj.git',
     keywords = ['testing', 'logging', 'example'],
-    classifiers = []
+    classifiers = [],
 )
