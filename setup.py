@@ -1,7 +1,7 @@
 from distutils.core import setup
 setup(
-    name = 'protein_pipy',
-    packages = ['protein_pipy'], # this must be the same as the name above
+    name = 'eproj1',
+    packages = ['eproj1'], # this must be the same as the name above
     version = '0.1',
     description = 'Pass the file of github to pipy',
     author = 'Esther Vendrell',
