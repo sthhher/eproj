@@ -1,5 +1,3 @@
-#!/usr/bin/env nextflow
-
 if (params.help) {
 	
 	    log.info"""
@@ -34,7 +32,8 @@ if (params.help) {
 		 ==============================================
 	     TCGA CANCER DRIVER GENES BENCHMARKING PIPELINE 
 	     ==============================================
-
+         input file: ${params.input}
+		 benchmarking community = ${params.community_id}
          public reference directory : ${params.public_ref_dir}
          tool name : ${params.participant_id}
 		 selected cancer types: ${params.challenges_ids}
@@ -48,6 +47,7 @@ if (params.help) {
 
 // input files
 
+input_file = file(params.input)
 ref_dir = Channel.fromPath( params.public_ref_dir, type: 'dir' )
 tool_name = params.participant_id.replaceAll("\\s","_")
 cancer_types = params.challenges_ids
